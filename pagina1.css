@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+#rosto{
+    height: 250px;
+    width: 210px;
+    border-radius: 50%;
+    margin: 30px;
+
+}
+
+#rosto:hover{
+    border-radius: 20%;
+
+}
+
+#oculos{
+    height: 550px;
+    width: 380px;
+    margin: 50px;
+    border-radius: 15%;
+
+}
+
+header{
+    background-color: rgb(236, 235, 210);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+nav{
+    background-color: rgb(245, 247, 137);
+
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+
+}
+
+li{
+    list-style: none;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+li:hover{
+    background-color: rgb(49, 48, 48);
+    border-bottom: 3px solid black;
+    color: yellow;
+    border-left: 5px solid yellow;
+    border-right: 5px solid yellow;
+    border-top: 3px solid black;
+    border-radius: 10%;
+
+}
+
+li a{
+    text-decoration: none;
+    color: black;
+
+}
+
+main{
+    background-color: rgb(221, 221, 218);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.sessao{
+    height: 400px;
+    width: 100%;
+
+}
+
+section#Home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+
+}
+
+section#Curiosidades{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    background-color: rgb(252, 238, 222);
+    color: rgb(48, 47, 47);
+
+}
+
+section#Contato{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    background-color: darkslategray;
+    color: white;
+
+}
+
+footer{
+    background-color: rgb(49, 48, 48);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 30px;
+    font-size: 20px;
+    color: yellow;
+    font-style: italic;
+
+}
