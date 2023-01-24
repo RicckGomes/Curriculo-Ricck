@@ -36,7 +36,8 @@ header{
 }
 
 nav{
-    background-color: rgb(245, 247, 137);
+    background-color: black;
+    border-radius: 5%;
 
 }
 
@@ -104,6 +105,120 @@ section#Curiosidades{
     justify-content: center;
     background-color: rgb(252, 238, 222);
     color: rgb(48, 47, 47);
+    height: 100%;
+    width: 100%;
+
+}
+
+#estudio_img{
+    height: 250px;
+    width: 210px;
+    border-radius: 10%;
+    margin: 30px;
+
+}
+
+section#estudio{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: darkblue;
+
+}
+
+#ensaio_img{
+    height: 250px;
+    width: 210px;
+    border-radius: 10%;
+    margin: 30px;
+
+}
+
+section#ensaio{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: darkblue;
+
+}
+
+#casamento_img{
+    height: 250px;
+    width: 210px;
+    border-radius: 10%;
+    margin: 30px;
+
+}
+
+section#casamento{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: darkblue;
+
+}
+
+#axe_img{
+    height: 250px;
+    width: 210px;
+    border-radius: 10%;
+    margin: 30px;
+
+}
+
+section#axe{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: darkblue;
+
+}
+
+#cozinha{
+    height: 250px;
+    width: 210px;
+    border-radius: 10%;
+    margin: 30px;
+
+}
+
+#geral{
+    height: 250px;
+    width: 210px;
+    border-radius: 10%;
+    margin: 30px;
+
+}
+
+#orquestra{
+    height: 250px;
+    width: 210px;
+    border-radius: 10%;
+    margin: 30px;
+
+}
+
+section#rock{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: darkblue;
+
+}
+
+#shopping_img{
+    height: 250px;
+    width: 210px;
+    border-radius: 10%;
+    margin: 30px;
+
+}
+
+section#shopping{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: darkblue;
 
 }
 
@@ -123,7 +238,26 @@ footer{
     align-content: center;
     height: 30px;
     font-size: 20px;
-    color: yellow;
+    color: darkorange;
     font-style: italic;
 
 }
+
+@media screen and (max-width: 800px) {
+    header{
+        flex-direction: column;
+        padding: 20px;
+
+    }
+}
+
+@media screen and (max-width: 690px) {
+    section#Home{
+        flex-direction: column;
+        padding: 20px;
+        padding-left: 40px;
+        padding-right: 40px;
+
+    }
+}
+
