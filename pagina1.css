@@ -85,7 +85,7 @@ main{
 }
 
 .sessao{
-    height: 400px;
+    height: 100%;
     width: 100%;
 
 }
@@ -101,133 +101,106 @@ section#Home{
 
 section#Curiosidades{
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     justify-content: center;
     background-color: rgb(252, 238, 222);
-    color: rgb(48, 47, 47);
     height: 100%;
     width: 100%;
 
 }
 
+
 #estudio_img{
     height: 250px;
-    width: 210px;
+    width: 310px;
     border-radius: 10%;
     margin: 30px;
-
-}
-
-section#estudio{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: darkblue;
-
-}
-
-#ensaio_img{
-    height: 250px;
-    width: 210px;
-    border-radius: 10%;
-    margin: 30px;
-
-}
-
-section#ensaio{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: darkblue;
 
 }
 
 #casamento_img{
     height: 250px;
-    width: 210px;
+    width: 310px;
     border-radius: 10%;
     margin: 30px;
 
 }
 
-section#casamento{
+section#Curiosidades_2{
     display: flex;
     align-items: center;
     justify-content: center;
-    color: darkblue;
+    background-color: rgb(252, 238, 222);
+    height: 100%;
+    width: 100%;
 
 }
 
 #axe_img{
     height: 250px;
-    width: 210px;
+    width: 200px;
     border-radius: 10%;
     margin: 30px;
-
-}
-
-section#axe{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: darkblue;
-
-}
-
-#cozinha{
-    height: 250px;
-    width: 210px;
-    border-radius: 10%;
-    margin: 30px;
-
-}
-
-#geral{
-    height: 250px;
-    width: 210px;
-    border-radius: 10%;
-    margin: 30px;
-
-}
-
-#orquestra{
-    height: 250px;
-    width: 210px;
-    border-radius: 10%;
-    margin: 30px;
-
-}
-
-section#rock{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: darkblue;
 
 }
 
 #shopping_img{
     height: 250px;
-    width: 210px;
+    width: 310px;
     border-radius: 10%;
     margin: 30px;
 
 }
 
-section#shopping{
+section#Curiosidades_3{
     display: flex;
     align-items: center;
     justify-content: center;
-    color: darkblue;
+    background-color: rgb(252, 238, 222);
+    height: 100%;
+    width: 100%;
+
+}
+
+#rock_cozinha{
+    height: 250px;
+    width: 310px;
+    border-radius: 10%;
+    margin: 30px;
+
+}
+
+#rock{
+    height: 250px;
+    width: 310px;
+    border-radius: 10%;
+    margin: 30px;
+
+}
+
+#rock_orquestra{
+    height: 250px;
+    width: 310px;
+    border-radius: 10%;
+    margin: 30px;
 
 }
 
 section#Contato{
     display: flex;
-    align-items: flex-start;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
     background-color: darkslategray;
     color: white;
+
+}
+
+#tantanzinho{
+    height: 250px;
+    width: 200px;
+    border-radius: 10%;
+    margin: 30px;
 
 }
 
