@@ -186,13 +186,14 @@ section#Curiosidades_3{
 
 }
 
-section#Contato{
+section#Contatos{
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
     background-color: darkslategray;
     color: white;
+    height: 100%;
+    width: 100%;
 
 }
 
@@ -208,8 +209,11 @@ footer{
     background-color: rgb(49, 48, 48);
     display: flex;
     justify-content: center;
-    align-content: center;
+    align-items: center;
+    bottom: 0;
     height: 30px;
+    width: 100%;
+    position: fixed;
     font-size: 20px;
     color: darkorange;
     font-style: italic;
