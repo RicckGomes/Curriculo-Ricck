@@ -266,7 +266,7 @@ footer{
 @media screen and (max-width: 1155px) {
     .coluna{
         flex-direction: column;
-        padding: 20px;
+        padding: 10px;
         padding-left: 40px;
         padding-right: 40px;
 
@@ -276,7 +276,7 @@ footer{
 @media screen and (max-width: 1172px) {
     .linha{
         flex-direction: column;
-        padding: 20px;
+        padding: 10px;
         padding-left: 40px;
         padding-right: 40px;
 
